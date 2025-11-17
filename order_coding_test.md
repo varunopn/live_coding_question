@@ -8,7 +8,7 @@ Implement a small Node.js HTTP API that:
 - Provides **CRUD endpoints** for order management.
 - Provides an endpoint that **summarizes orders grouped by customer**.
 
-You may use **Express** or Node.js built-in `http` module.  
+You may use **Express** or Node.js built-in `http` module.
 
 ---
 
@@ -57,8 +57,8 @@ Example response:
 **GET /orders/:id**
 
 - Return order by `id`.
-- If not found:  
-  - `404 Not Found`  
+- If not found:
+  - `404 Not Found`
   - JSON error message
 
 ---
@@ -90,7 +90,7 @@ Response:
 
 ---
 
-### 4. Update Order (Partial Update)
+### 4. Update Order (Partial Update) [Optional can skip to save time]
 
 **PATCH /orders/:id**
 
@@ -117,8 +117,8 @@ Rules:
 Rules:
 
 - If not found: `404 Not Found`
-- On success:  
-  - `204 No Content` (recommended), or  
+- On success:
+  - `204 No Content` (recommended), or
   - `200 OK` with confirmation message
 
 ---
