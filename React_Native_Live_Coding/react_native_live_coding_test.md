@@ -47,7 +47,7 @@ https://jsonplaceholder.typicode.com/todos
 Your app must:
 
 - Show a **loading indicator** while fetching
-- Display **first 20 todos** in a list (`FlatList`)
+- Display **first 20 todos** in a list
 - For each todo, display:
   - Title
   - Completion status (e.g., `✅` or `❌`)
